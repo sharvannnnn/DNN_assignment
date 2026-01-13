@@ -1,0 +1,11 @@
+
+model:
+  image_encoder: CNN
+  text_encoder: LSTM
+  fusion: CrossModalAttention
+  sequence_model: LSTM
+
+training:
+  epochs: 12
+  batch_size: 16
+  learning_rate: 0.0005
